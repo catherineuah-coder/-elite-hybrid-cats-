@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELITE HYBRID CATS — Эксклюзивные саванны F1–F3</title>
+  <meta name="description" content="Питомник эксклюзивных саванн высших поколений F1–F3. Серебро, Золотой, HP. Документы TICA. Доставка по России." />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@300,400,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ NAV ═══ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <svg width="32" height="32" viewBox="0 0 36 36" fill="none">
+          <polygon points="18,2 34,10 34,26 18,34 2,26 2,10" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M12 14 C12 10,18 8,18 14 C18 8,24 10,24 14 C24 20,18 26,18 26 C18 26,12 20,12 14Z" fill="currentColor"/>
+        </svg>
+        <span>ELITE HYBRID CATS</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#kittens">Котята</a>
+        <a href="#breed">О породе</a>
+        <a href="#generations">Поколения</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact" class="nav__cta">Связаться</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero-img">
+    <img src="img/hero-final.png" alt="Elite Hybrid Cats" class="hero-img__pic" />
+    <div class="hero-img__overlay"></div>
+    <a href="#kittens" class="hero-img__btn">Выбрать котёнка</a>
+    <a href="#kittens" class="hero-img__scroll">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </section>
+
+  <!-- ═══ STATS ═══ -->
+  <div class="stats">
+    <div class="stats__inner">
+      <div class="stats__item">
+        <span class="stats__num">F1–F3</span>
+        <span class="stats__label">Поколения</span>
+      </div>
+      <div class="stats__div"></div>
+      <div class="stats__item">
+        <span class="stats__num">3</span>
+        <span class="stats__label">Окраса</span>
+      </div>
+      <div class="stats__div"></div>
+      <div class="stats__item">
+        <span class="stats__num">12+</span>
+        <span class="stats__label">Лет опыта</span>
+      </div>
+      <div class="stats__div"></div>
+      <div class="stats__item">
+        <span class="stats__num">TICA</span>
+        <span class="stats__label">Документы</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ KITTENS ═══ -->
+  <section class="kittens" id="kittens">
+    <div class="section-head">
+      <p class="section-pre">ДОСТУПНЫЕ КОТЯТА</p>
+      <h2 class="section-title">Выберите своего<br/>идеального питомца</h2>
+    </div>
+    <div class="kittens__grid">
+
+      <article class="kcard kcard--silver">
+        <div class="kcard__img-wrap">
+          <img src="img/cat-silver.png" alt="Саванна серебро" class="kcard__img" loading="lazy"/>
+          <div class="kcard__glow kcard__glow--cyan"></div>
+          <div class="kcard__badge">РЕДКИЙ</div>
+        </div>
+        <div class="kcard__body">
+          <p class="kcard__gen">F2 / F3</p>
+          <h3 class="kcard__name">СЕРЕБРО</h3>
+          <p class="kcard__desc">Платиново-серебристый окрас с угольными пятнами. Ледяные стальные глаза. Самый редкий и эффектный вариант.</p>
+          <ul class="kcard__traits">
+            <li>Серебристо-белый фон</li>
+            <li>Чёткие чёрные пятна</li>
+            <li>Стальные или голубые глаза</li>
+          </ul>
+          <div class="kcard__price">от 250 000 ₽</div>
+          <a href="#contact" class="kcard__btn">Узнать наличие</a>
+        </div>
+      </article>
+
+      <article class="kcard kcard--golden kcard--featured">
+        <div class="kcard__featured-bar"></div>
+        <div class="kcard__img-wrap">
+          <img src="img/cat-golden.png" alt="Саванна золотой" class="kcard__img" loading="lazy"/>
+          <div class="kcard__glow kcard__glow--orange"></div>
+          <div class="kcard__badge kcard__badge--gold">ПОПУЛЯРНЫЙ</div>
+        </div>
+        <div class="kcard__body">
+          <p class="kcard__gen">F1 / F2</p>
+          <h3 class="kcard__name">ЗОЛОТОЙ</h3>
+          <p class="kcard__desc">Тёплый золотисто-рыжий окрас с жирными чёрными пятнами. Янтарные глаза. Классика породы во всей красе.</p>
+          <ul class="kcard__traits">
+            <li>Тёплый золотисто-рыжий фон</li>
+            <li>Крупные чёрные пятна</li>
+            <li>Янтарные или зелёные глаза</li>
+          </ul>
+          <div class="kcard__price">от 300 000 ₽</div>
+          <a href="#contact" class="kcard__btn kcard__btn--accent">Узнать наличие</a>
+        </div>
+      </article>
+
+      <article class="kcard kcard--hp">
+        <div class="kcard__img-wrap">
+          <img src="img/cat-hp.png" alt="Саванна HP" class="kcard__img" loading="lazy"/>
+          <div class="kcard__glow kcard__glow--magenta"></div>
+          <div class="kcard__badge kcard__badge--hp">HP</div>
+        </div>
+        <div class="kcard__body">
+          <p class="kcard__gen">F1 HP</p>
+          <h3 class="kcard__name">САВАННА HP</h3>
+          <p class="kcard__desc">High Performance — максимальная близость к сервалу. Вытянутая морда, огромные уши, ярко-голубые глаза. Вершина породы.</p>
+          <ul class="kcard__traits">
+            <li>Узкая вытянутая морда сервала</li>
+            <li>Ярко-голубые глаза</li>
+            <li>До 50% крови сервала</li>
+          </ul>
+          <div class="kcard__price">от 600 000 ₽</div>
+          <a href="#contact" class="kcard__btn">Узнать наличие</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ═══ BREED ═══ -->
+  <section class="breed" id="breed">
+    <div class="breed__inner">
+      <div class="breed__text">
+        <p class="section-pre">О ПОРОДЕ</p>
+        <h2 class="section-title">Саванна — это<br/>не просто кошка</h2>
+        <p class="breed__body">Саванна — гибрид африканского сервала и домашней кошки. Порода официально признана TICA в 2001 году. Это самая крупная домашняя кошка в мире — рост в холке до 45 см, вес до 11 кг.</p>
+        <p class="breed__body">По характеру саванна ближе к собаке: ходит на поводке, учит команды, обожает воду и следует за хозяином по пятам. Формирует глубокую связь на всю жизнь.</p>
+        <div class="breed__compare">
+          <div class="breed__col">
+            <p class="breed__col-title">САВАННА</p>
+            <ul class="breed__list breed__list--good">
+              <li>Рост до 45 см</li>
+              <li>Вес до 11 кг</li>
+              <li>IQ уровня собаки</li>
+              <li>Ходит на поводке</li>
+              <li>Живёт до 20 лет</li>
+            </ul>
+          </div>
+          <div class="breed__col">
+            <p class="breed__col-title">ОБЫЧНАЯ КОШКА</p>
+            <ul class="breed__list breed__list--plain">
+              <li>Рост до 25 см</li>
+              <li>Вес до 5 кг</li>
+              <li>Стандартный интеллект</li>
+              <li>Не поддаётся дрессуре</li>
+              <li>Живёт до 15 лет</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="breed__visual">
+        <img src="img/cat-hp.png" alt="Саванна HP портрет" class="breed__photo"/>
+        <div class="breed__ring"></div>
+        <div class="breed__stat breed__stat--1">
+          <span class="breed__stat-n">до 45 см</span>
+          <span class="breed__stat-l">высота в холке</span>
+        </div>
+        <div class="breed__stat breed__stat--2">
+          <span class="breed__stat-n">до 20 лет</span>
+          <span class="breed__stat-l">продолжительность жизни</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ GENERATIONS ═══ -->
+  <section class="gen-section" id="generations">
+    <div class="section-head">
+      <p class="section-pre">КЛАССИФИКАЦИЯ</p>
+      <h2 class="section-title">Поколения саванны</h2>
+      <p class="section-sub">Чем меньше номер поколения — тем больше крови сервала, тем крупнее и редкостнее кошка</p>
+    </div>
+    <div class="gen-grid">
+      <div class="gen-card">
+        <div class="gen-card__top gen-card__top--f1">
+          <span class="gen-card__label">F1</span>
+          <span class="gen-card__blood">50% сервала</span>
+        </div>
+        <div class="gen-card__body">
+          <h3 class="gen-card__title">Первое поколение</h3>
+          <p class="gen-card__desc">Прямой гибрид сервала и домашней кошки. Максимальный размер, самые яркие пятна и дикий характер. Редчайшие в мире.</p>
+          <div class="gen-card__price">от 600 000 ₽</div>
+        </div>
+      </div>
+      <div class="gen-card">
+        <div class="gen-card__top gen-card__top--f2">
+          <span class="gen-card__label">F2</span>
+          <span class="gen-card__blood">25% сервала</span>
+        </div>
+        <div class="gen-card__body">
+          <h3 class="gen-card__title">Второе поколение</h3>
+          <p class="gen-card__desc">Сохраняют дикий облик и крупный размер. Более мягкий характер при сохранении экзотики. Идеальный баланс.</p>
+          <div class="gen-card__price">от 250 000 ₽</div>
+        </div>
+      </div>
+      <div class="gen-card">
+        <div class="gen-card__top gen-card__top--f3">
+          <span class="gen-card__label">F3</span>
+          <span class="gen-card__blood">12.5% сервала</span>
+        </div>
+        <div class="gen-card__body">
+          <h3 class="gen-card__title">Третье поколение</h3>
+          <p class="gen-card__desc">Отличная адаптация к домашней жизни. Сохраняют экзотический вид и активный темперамент. Проще в содержании.</p>
+          <div class="gen-card__price">от 120 000 ₽</div>
+        </div>
+      </div>
+      <div class="gen-card gen-card--hp">
+        <div class="gen-card__top gen-card__top--hp">
+          <span class="gen-card__label">HP</span>
+          <span class="gen-card__blood">High Performance</span>
+        </div>
+        <div class="gen-card__body">
+          <h3 class="gen-card__title">Высокое качество</h3>
+          <p class="gen-card__desc">Особый статус для котят F1 с максимальным процентом крови сервала и выдающимися внешними характеристиками.</p>
+          <div class="gen-card__price">от 800 000 ₽</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ GALLERY ═══ -->
+  <section class="gallery" id="gallery">
+    <div class="section-head">
+      <p class="section-pre">ГАЛЕРЕЯ</p>
+      <h2 class="section-title">Наши питомцы</h2>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall">
+        <img src="img/cat-hp.png" alt="Саванна HP" loading="lazy"/>
+      </div>
+      <div class="gallery__item">
+        <img src="img/cat-silver.png" alt="Саванна серебро" loading="lazy"/>
+      </div>
+      <div class="gallery__item">
+        <img src="img/cat-golden.png" alt="Саванна золотой" loading="lazy"/>
+      </div>
+      <div class="gallery__item gallery__item--wide">
+        <img src="img/cats-three.png" alt="Три саванны" loading="lazy"/>
+      </div>
+      <div class="gallery__item">
+        <img src="img/golden.png" alt="Золотой окрас" loading="lazy"/>
+      </div>
+      <div class="gallery__item">
+        <img src="img/silver.png" alt="Серебряный окрас" loading="lazy"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__left">
+        <p class="section-pre">СВЯЗАТЬСЯ</p>
+        <h2 class="section-title">Готов встретить<br/>своего хищника?</h2>
+        <p class="contact__sub">Оставьте заявку — ответим в течение часа. Расскажем о доступных котятах, ценах и условиях доставки.</p>
+        <div class="contact__channels">
+          <a href="https://t.me/elitehybridcats" class="contact__ch" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            Telegram
+          </a>
+          <a href="https://wa.me/79001234567" class="contact__ch" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            WhatsApp
+          </a>
+          <a href="https://instagram.com/elitehybridcats" class="contact__ch" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+      <form class="contact__form" novalidate>
+        <div class="form__group">
+          <label class="form__label">Ваше имя</label>
+          <input type="text" class="form__input" placeholder="Александр" />
+        </div>
+        <div class="form__group">
+          <label class="form__label">Телефон / Telegram</label>
+          <input type="tel" class="form__input" placeholder="+7 (900) 000-00-00" />
+        </div>
+        <div class="form__group">
+          <label class="form__label">Интересующий окрас</label>
+          <select class="form__input form__select">
+            <option value="">Выберите окрас</option>
+            <option>Серебро</option>
+            <option>Золотой</option>
+            <option>Саванна HP</option>
+            <option>Любой — хочу посмотреть всё</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Поколение</label>
+          <select class="form__input form__select">
+            <option value="">Выберите поколение</option>
+            <option>F1 HP — максимум</option>
+            <option>F1 — первое поколение</option>
+            <option>F2 — второе поколение</option>
+            <option>F3 — третье поколение</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label class="form__label">Сообщение</label>
+          <textarea class="form__input form__textarea" rows="3" placeholder="Вопрос или пожелание..."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Отправить заявку</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">
+        <svg width="24" height="24" viewBox="0 0 36 36" fill="none">
+          <polygon points="18,2 34,10 34,26 18,34 2,26 2,10" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M12 14 C12 10,18 8,18 14 C18 8,24 10,24 14 C24 20,18 26,18 26 C18 26,12 20,12 14Z" fill="currentColor"/>
+        </svg>
+        <span>ELITE HYBRID CATS</span>
+      </div>
+      <p class="footer__links">
+        <a href="#kittens">Котята</a>
+        <a href="#breed">О породе</a>
+        <a href="#generations">Поколения</a>
+        <a href="#contact">Контакты</a>
+      </p>
+      <p class="footer__copy">© 2026 Elite Hybrid Cats. Питомник зарегистрирован в TICA.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
